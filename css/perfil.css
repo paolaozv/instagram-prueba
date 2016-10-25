@@ -104,41 +104,42 @@
 	margin-top: 0.6em;
 }
 
- .line {
+.line {
  	margin-top: 5px;
  	margin-bottom: 5px;
- }
+}
 
- .i-menu {
+.i-menu {
 	color: #D3D3D3;
 	font-size: 1.2em;
 	margin-right: 2.8em;
- }
+}
 
- .icon-us {
+.icon-us {
  	color: #D3D3D3;
 	font-size: 1.2em;
- }
+}
 
- .icon-table {
+.icon-table {
  	margin-left: 1.6em;
- }
+}
 
- .menu {
+.menu {
  	padding: 0.8em 1.2em;
  	border-bottom: 0.001em solid #F1F1F1;
- }
+	background-color: #FFF;
+}
 
- .foto {
+.foto {
  	height: 100px;
  	width: 100%;
- }
+}
 
- .row .box {
+.row .box {
  	padding: 0;
- }
+}
 
- .btn-file {
+.btn-file {
   position: relative;
   overflow: hidden;
 }
@@ -147,8 +148,51 @@
     position: absolute;
     top: 0;
     right: 0;
-    min-width: 100%;
+    width: 50px;
     min-height: 100%;
     filter: alpha(opacity=0);
     opacity: 0;
+}
+
+.oculto {
+	display: none;
+}
+
+.image {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+}
+
+.tip-user {
+	font-family: "Helvetica";
+	font-weight: bold;
+	margin-left: 0.5em;
+}
+
+.contact {
+	height: 50px;
+	width: 100%;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0.7em;
+	border: 0.1em solid #E6E6E6;
+}
+
+.image-contenedor {
+	width: 100%;
+	height: auto;
+}
+
+.image-contact {
+	height: 320px;
+	width: 100%;
+}
+
+.menu-fixed {
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
 }

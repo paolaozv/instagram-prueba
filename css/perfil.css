@@ -1,0 +1,154 @@
+* {
+	box-sizing: border-box;
+}
+
+.contenedor {
+	position: relative;
+}
+
+.white {
+	background-color: #FFF;
+}
+
+.nav-height {
+	height: 37px;
+	box-shadow: 0px 0px 4px #888888;
+	width: 100%;
+}
+
+.nav-inf {
+	height: 40px;
+	box-shadow: -1px -3px 3px -2px #888888;
+	width: 100%;
+	padding-top: 0.5em;
+	position: fixed;
+	bottom: -1px;
+}
+
+.icon-inf {
+	font-size: 1.8em;
+	color: #A5A7AA;
+	margin-right: 1.3em;
+}
+
+.icon-h {
+	font-size: 1.8em;
+	color: #A5A7AA;
+	margin-right: 1.35em;
+}
+
+.icon-u {
+	font-size: 1.9em;
+	color: #A5A7AA;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.contain {
+	height: 37px;
+	padding: 0.6em 1.2em;
+}
+
+.usuario {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.contain-icon {
+	height: 37px;
+	padding: 0.9em;
+}
+
+.icon-up {
+	font-size: 1.2em;
+}
+
+.foto-perfil {
+	height: 75px;
+	width: 75px;
+	border-radius: 50%;
+}
+
+.pd-fp {
+	padding-left: 0.8em;
+}
+
+.mg-num {
+	margin-left: 0.6em;
+}
+
+.editar {
+	border: none;
+	background-color: #D3D3D3;
+	border-radius: 4px;
+	padding: 0.2em 1.5em;
+	margin-top: 0.9em;
+	margin-left: 3.5em;
+	font-size: 0.8em;
+}
+
+.color-p {
+	color: #D3D3D3;
+	font-size: 0.9em;
+}
+
+.pd-top {
+	padding-top: 1.2em;
+}
+
+.nombre {
+	font-weight: bold;
+	font-size: 1em;
+	margin-top: 0.6em;
+}
+
+ .line {
+ 	margin-top: 5px;
+ 	margin-bottom: 5px;
+ }
+
+ .i-menu {
+	color: #D3D3D3;
+	font-size: 1.2em;
+	margin-right: 2.8em;
+ }
+
+ .icon-us {
+ 	color: #D3D3D3;
+	font-size: 1.2em;
+ }
+
+ .icon-table {
+ 	margin-left: 1.6em;
+ }
+
+ .menu {
+ 	padding: 0.8em 1.2em;
+ 	border-bottom: 0.001em solid #F1F1F1;
+ }
+
+ .foto {
+ 	height: 100px;
+ 	width: 100%;
+ }
+
+ .row .box {
+ 	padding: 0;
+ }
+
+ .btn-file {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    filter: alpha(opacity=0);
+    opacity: 0;
+}

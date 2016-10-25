@@ -1,0 +1,143 @@
+* {
+	box-sizing: border-box;
+}
+
+.contenedor {
+	position: relative;
+}
+
+.tip-bil {
+	font-family: "Billabong";
+}
+
+.c-insta {
+	color: #262626;
+}
+
+.white {
+	background-color: #FFF;
+}
+
+.nav-height {
+	height: 45px;
+	box-shadow: 0px 0px 4px #888888;
+	width: 100%;
+}
+
+.icono {
+	font-size: 2em;
+}
+
+.contenedor-logo {
+	width: 110px;
+	position: absolute;
+}
+
+.logo {
+	width: 100%;
+}
+
+.pd-lr {
+	padding: 0px 10px;
+	box-sizing: border-box;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.spinner {
+	padding-top: 0.6em;
+	padding-right: 1.2em;
+}
+
+.drawer {
+	padding-top: 0.3em;
+}
+
+.nav-inf {
+	height: 40px;
+	box-shadow: -1px -3px 3px -2px #888888;
+	width: 100%;
+	padding-top: 0.5em;
+	position: fixed;
+	bottom: -1px;
+}
+
+.icon-inf {
+	font-size: 1.8em;
+	color: #A5A7AA;
+	margin-right: 1.3em;
+}
+
+.icon-h {
+	font-size: 1.8em;
+	color: #A5A7AA;
+	margin-right: 1.35em;
+}
+
+.image {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+}
+
+.icon-u {
+	font-size: 1.9em;
+	color: #A5A7AA;
+}
+
+.tip-user {
+	font-family: "Helvetica";
+	font-weight: bold;
+	margin-left: 0.5em;
+}
+
+.contact {
+	height: 50px;
+	width: 100%;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0.7em;
+	border: 0.1em solid #E6E6E6;
+}
+
+.image-contenedor {
+	width: 100%;
+	height: auto;
+}
+
+.image-contact {
+	height: 320px;
+	width: 100%;
+}
+
+.like {
+	padding: 0.6em;
+	border-bottom: 0.001em solid #A5A7AA;
+}
+
+.icon-coment {
+	font-size: 1.6em;
+	color: #A5A7AA;
+	margin-right: 0.6em
+}
+
+.coment {
+	margin-bottom: 0.5em;
+}
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    filter: alpha(opacity=0);
+    opacity: 0;
+}

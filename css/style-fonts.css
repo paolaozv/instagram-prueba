@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/fonts/icomoon.eot?a22f14');
+  src:  url('../fonts/fonts/icomoon.eot?a22f14#iefix') format('embedded-opentype'),
+    url('../fonts/fonts/icomoon.ttf?a22f14') format('truetype'),
+    url('../fonts/fonts/icomoon.woff?a22f14') format('woff'),
+    url('../fonts/fonts/icomoon.svg?a22f14#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart:before {
+  content: "\e900";
+}
+.icon-bubble:before {
+  content: "\e901";
+}
+.icon-home:before {
+  content: "\e902";
+}
+.icon-camera:before {
+  content: "\e90f";
+}
+.icon-music:before {
+  content: "\e911";
+}
+.icon-video-camera:before {
+  content: "\e914";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-drawer2:before {
+  content: "\e95d";
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-users:before {
+  content: "\e972";
+}
+.icon-user-plus:before {
+  content: "\e973";
+}
+.icon-spinner6:before {
+  content: "\e97f";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-cog:before {
+  content: "\e994";
+}
+.icon-list:before {
+  content: "\e9ba";
+}
+.icon-list2:before {
+  content: "\e9bb";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-heart2:before {
+  content: "\e9da";
+}
+.icon-table2:before {
+  content: "\ea71";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+

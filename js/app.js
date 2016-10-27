@@ -3,13 +3,14 @@ var cargarPagina = function() {
 	$("#visible").click(visible);
 	$("#visto").click(mostrar);
 	$("#camera-perfil").change(capturarPerfil);
-	$(window).scroll(fixed);
+	/*$(window).scroll(fixed);*/
 };
 
 $(document).ready(cargarPagina);
 
 var contador = 1;
-var altura = $(".menu").offset().top;
+/*var altura = $(".menu").offset().top;*/
+var foto = localStorage.getItem("fotoAlmacenada");
 
 var capturar = function(event) {
 	var user = crearElemento("<div>", ["user"]);
@@ -83,6 +84,7 @@ var subirFoto = function() {
 		reader.onload = function(event){
 			var recuperar = event.target.result;
 			$("#notice" + contador).attr("src", recuperar);
+			localStorage.setItem("fotoAlmacenada", recuperar);
 			contador++;
 		}
 		reader.readAsDataURL(event.target.files[0]);
@@ -99,13 +101,13 @@ var mostrar = function() {
 	$("#lineal").show();
 }
 
-var fixed = function() {
+/*var fixed = function() {
 	if ( $(window).scrollTop() > altura ){
 		$(".menu").addClass("menu-fixed");
 	} else {
 		$(".menu").removeClass("menu-fixed");
 	}
-};
+};*/
 
 crearElemento = function(etiqueta, clases = []) {
 	var elemento = $(etiqueta);

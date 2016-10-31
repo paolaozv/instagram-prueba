@@ -4,6 +4,7 @@ var cargarPagina = function() {
 	$("#visto").click(mostrar);
 	$("#camera-perfil").change(capturarPerfil);
 	/*$(window).scroll(fixed);*/
+	$(".comentario").click(comentar);
 };
 
 $(document).ready(cargarPagina);
@@ -33,7 +34,9 @@ var capturar = function(event) {
 
 	var heart = crearElemento("<span>", ["icon-heart", "icon-coment"]);
 
-	var bubble = crearElemento("<span>", ["icon-bubble", "icon-coment"]);
+	var bubble = crearElemento("<span>", ["icon-bubble", "icon-coment", "comentario"]);
+
+	var coment = crearElemento("<div>", ["coment"]);
 
 	$("#noticias").prepend(user);
 	user.append(contact);
@@ -45,6 +48,7 @@ var capturar = function(event) {
 	user.append(like);
 	like.append(heart);
 	like.append(bubble);
+	user.append(coment);
 
 	subirFoto();
 };
@@ -108,6 +112,10 @@ var mostrar = function() {
 		$(".menu").removeClass("menu-fixed");
 	}
 };*/
+
+var comentar = function() {
+	var comentario = crearElemento("<textarea>", [""])
+};
 
 crearElemento = function(etiqueta, clases = []) {
 	var elemento = $(etiqueta);
